@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="ROT Weather Bounds Fix"/>
+  <Id value="ROTWeatherBoundsFix"/>
+  <Version value="v1.0.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <Official value="false"/>
+  <DefaultModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Bannerlord.Harmony"/>
+    <DependedModule Id="Native"/>
+    <DependedModule Id="SandBoxCore"/>
+    <DependedModule Id="Sandbox"/>
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="ROTWeatherBoundsFix"/>
+      <DLLName value="ROTWeatherBoundsFix.dll"/>
+      <SubModuleClassType value="ROTWeatherBoundsFix.SubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none"/>
+        <Tag key="IsNoRenderModeElement" value="false"/>
+      </Tags>
+    </SubModule>
+  </SubModules>
+</Module>
